@@ -6,7 +6,7 @@ function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("jobCategory.json")
+    fetch("jobs.json")
       .then((res) => res.json())
       .then((d) => setData(d));
   }, []);
@@ -16,7 +16,11 @@ function App() {
     <div className="App">
       <h1>Hello world</h1>
       {data.map((job) => (
-        <img src={job.img} alt="" />
+        <ul>
+          {job.type.map((t) => (
+            <li>{t}</li>
+          ))}
+        </ul>
       ))}
     </div>
   );
