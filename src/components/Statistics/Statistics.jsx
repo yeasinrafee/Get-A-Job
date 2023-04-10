@@ -1,11 +1,11 @@
 import React from "react";
 
-const Home = () => {
+const Statistics = () => {
   return (
     <div className="w-full md:w-9/12 my-10 mx-auto">
-      <h1>Home</h1>
+      <h1>Statistics</h1>
     </div>
   );
 };
 
-export default Home;
+export default Statistics;
