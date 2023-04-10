@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="w-full md:w-9/12 my-10 mx-auto flex justify-between items-start">
+    <div className="w-full md:w-8/12 py-10 mx-auto flex justify-between items-start">
       <h1 className="font-bold text-4xl">GetAJob</h1>
       <nav className="flex gap-10 items-center ">
         <NavLink to="/" className="hover:text-violet-400">
