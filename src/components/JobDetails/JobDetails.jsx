@@ -64,11 +64,11 @@ const JobDetails = () => {
             </p>
           </div>
 
-          <div className="mt-6 rounded-md text-center bg-violet-400 font-bold text-white py-4 cursor-pointer">
-            <Link>
+          <Link to="/job">
+            <div className="mt-6 rounded-md text-center bg-violet-400 font-bold text-white py-4 cursor-pointer">
               <button>Apply Now</button>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
