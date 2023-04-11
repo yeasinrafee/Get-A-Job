@@ -1,4 +1,5 @@
 import React from "react";
+import JobCategory from "../JobCategory/JobCategory";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
           <img src="../../../public/All Images/heroimg.png" alt="" />
         </div>
       </div>
+      <JobCategory />
     </div>
   );
 };
