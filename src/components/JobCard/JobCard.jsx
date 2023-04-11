@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const JobCard = ({ job }) => {
   // console.log(job);
@@ -21,9 +22,11 @@ const JobCard = ({ job }) => {
         <p>⬇️ {job.Location}</p>
         <p>💲Salary: {job.salary}</p>
       </div>
-      <button className="bg-violet-400 text-md text-white px-3 py-1.5 rounded-sm">
-        View Details
-      </button>
+      <Link to={`/${job.id}`}>
+        <button className="bg-violet-400 text-md text-white px-3 py-1.5 rounded-sm">
+          View Details
+        </button>
+      </Link>
     </div>
   );
 };
