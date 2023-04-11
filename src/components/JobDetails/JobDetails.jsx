@@ -11,7 +11,7 @@ const JobDetails = () => {
       .then((data) => setData(data.find((d) => d.id == jobId)));
   }, []);
 
-  console.log(data);
+  // console.log(data);
 
   const handleStoreInLocalStorage = (data) => {
     let job = [];
