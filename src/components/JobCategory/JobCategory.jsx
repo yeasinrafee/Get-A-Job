@@ -19,17 +19,21 @@ const JobCategory = () => {
         </p>
       </div>
       <div className="flex justify-between">
-        {data.map((job) => (
-          <div className="bg-violet-50 py-8 pl-8 pr-20 rounded-md" key={job.id}>
-            <img
-              className="p-2 bg-violet-100 rounded-md mb-5"
-              src={job.img}
-              alt=""
-            />
-            <h2 className="font-bold">{job.title}</h2>
-            <p className="text-sm text-gray-400">{job.job}</p>
-          </div>
-        ))}
+        {data &&
+          data.map((job) => (
+            <div
+              className="bg-violet-50 py-8 pl-8 pr-20 rounded-md"
+              key={job.id}
+            >
+              <img
+                className="p-2 bg-violet-100 rounded-md mb-5"
+                src={job.img}
+                alt=""
+              />
+              <h2 className="font-bold">{job.title}</h2>
+              <p className="text-sm text-gray-400">{job.job}</p>
+            </div>
+          ))}
       </div>
     </div>
   );
