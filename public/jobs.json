@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "logo": "../src/assets/logo/google-1-1 1-1.png",
+    "logo": "./Logo/google-1-11-1.png",
     "title": "Technical Database Engineer",
     "sub_title": "Google LLC",
     "Location": "Dhaka, Bangladesh",
@@ -17,7 +17,7 @@
   },
   {
     "id": 2,
-    "logo": "../src/assets/logo/netflix-4 1.png",
+    "logo": "./Logo/netflix-41.png",
     "title": "Senior Product Designer",
     "sub_title": "Netflix",
     "Location": "Dhaka, Bangladesh",
@@ -33,7 +33,7 @@
   },
   {
     "id": 3,
-    "logo": "../src/assets/logo/tesla-9 1.png",
+    "logo": "./Logo/tesla-91.png",
     "title": "Software Engineer",
     "sub_title": "Tesla",
     "Location": "Dhaka, Bangladesh",
@@ -49,7 +49,7 @@
   },
   {
     "id": 4,
-    "logo": "../src/assets/logo/google-1-1 1.png",
+    "logo": "./Logo/google-1-11.png",
     "title": "Technical Database Engineer",
     "sub_title": "Google LLC",
     "Location": "Dhaka, Bangladesh",
@@ -65,7 +65,7 @@
   },
   {
     "id": 5,
-    "logo": "../src/assets/logo/netflix-4 1.png",
+    "logo": "./Logo/netflix-41.png",
     "title": "Technical Database Engineer",
     "sub_title": "Netflix",
     "Location": "Dhaka, Bangladesh",
@@ -81,7 +81,7 @@
   },
   {
     "id": 6,
-    "logo": "../src/assets/logo/tesla-9 1.png",
+    "logo": "./Logo/tesla-91.png",
     "title": "Senior Product Designer",
     "sub_title": "Tesla",
     "Location": "Dhaka, Bangladesh",

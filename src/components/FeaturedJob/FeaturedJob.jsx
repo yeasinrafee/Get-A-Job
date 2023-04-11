@@ -19,8 +19,13 @@ const FeaturedJob = () => {
           need. Its your future
         </p>
       </div>
-      <div>
+      <div className="grid grid-cols-2 gap-5">
         {jobData && jobData.map((job) => <JobCard key={job.id} job={job} />)}
+      </div>
+      <div className="text-center mt-9">
+        <button className="bg-violet-400 px-4 py-3 text-white text-lg rounded-md">
+          See All Jobs
+        </button>
       </div>
     </div>
   );
