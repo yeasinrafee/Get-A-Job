@@ -1,7 +1,7 @@
 import React from "react";
 
 const JobCard = ({ job }) => {
-  console.log(job);
+  // console.log(job);
   return (
     <div className="border p-8 rounded-md">
       <img className="mb-6" src={job.logo} alt="" />

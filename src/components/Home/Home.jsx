@@ -4,10 +4,10 @@ import FeaturedJob from "../FeaturedJob/FeaturedJob";
 
 const Home = () => {
   return (
-    <div className="w-full md:w-8/12 my-5 mx-auto">
-      <div className="flex justify-between items-center">
+    <div className="w-full md:w-8/12 my-5 md:mx-auto px-3 md:px-0">
+      <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="md:w-2/5">
-          <h1 className="font-bold text-6xl leading-tight mb-6">
+          <h1 className="font-bold text-5xl md:text-6xl leading-tight mb-6">
             One Step <br /> Closer To Your{" "}
             <span className="text-violet-400">Dream Job</span>
           </h1>

@@ -18,7 +18,7 @@ const JobCategory = () => {
           need. Its your future
         </p>
       </div>
-      <div className="flex justify-between">
+      <div className="flex flex-col md:flex-row justify-between">
         {data &&
           data.map((job) => (
             <div
