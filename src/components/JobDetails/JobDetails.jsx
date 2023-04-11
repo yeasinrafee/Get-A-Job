@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLoaderData, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const JobDetails = () => {
   const [data, setData] = useState({});
@@ -12,6 +12,26 @@ const JobDetails = () => {
   }, []);
 
   console.log(data);
+
+  const handleStoreInLocalStorage = (data) => {
+    let job = [];
+    const previousJobs = JSON.parse(localStorage.getItem("jobs"));
+
+    if (previousJobs) {
+      const isPresent = previousJobs.find((pd) => pd.id == data.id);
+
+      if (isPresent) {
+        console.log("Already Bookmarked");
+      } else {
+        job.push(...previousJobs, data);
+        localStorage.setItem("jobs", JSON.stringify(job));
+      }
+    } else {
+      job.push(data);
+      localStorage.setItem("jobs", JSON.stringify(job));
+    }
+  };
+
   return (
     <div className="w-full md:w-8/12 my-10 md:mx-auto px-3 md:px-0">
       <h1 className="font-bold text-center text-3xl mb-48">Job Details</h1>
@@ -65,7 +85,10 @@ const JobDetails = () => {
           </div>
 
           <Link to="/job">
-            <div className="mt-6 rounded-md text-center bg-violet-400 font-bold text-white py-4 cursor-pointer">
+            <div
+              onClick={() => handleStoreInLocalStorage(data)}
+              className="mt-6 rounded-md text-center bg-violet-400 font-bold text-white py-4 cursor-pointer"
+            >
               <button>Apply Now</button>
             </div>
           </Link>
