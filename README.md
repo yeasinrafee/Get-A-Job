@@ -2,14 +2,36 @@
 
 b7a9-career-hub-yeasinrafee created by GitHub Classroom
 
-https://ibb.co/dbctbpy
-https://ibb.co/6ZHjFS1
-https://ibb.co/gdN1bcD
-https://ibb.co/9sHy6kB
-https://ibb.co/fnqbhmV
-https://ibb.co/3sgq0mS
-https://ibb.co/YT5HYnv
-https://ibb.co/Thq3Yh5
-https://ibb.co/1MznJRy
-https://ibb.co/p36HbBK
-https://ibb.co/GQx1SL2
+A React app Built with React and React Router Dom.
+
+## Complete Project
+
+Github Repo -> [nextPage-github](https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-yeasinrafee/tree/main)
+
+## Live Link
+
+Hosted in Netlify -> [nextPage](#)
+
+# Features
+
+- Single Page Application
+- Dynamic Website
+- Find Job with Details
+- Option to mark applied Job
+- Storing the job in Local storage
+- Filter Jobs by their type (like remote, onsite)
+
+* Show Blogs
+* Statistics in Pie Chart
+
+## API
+
+Documentation Link -> [It Bookstore API](https://api.itbook.store/)
+
+## React Router Dom v6.4
+
+Documentation Link -> [Link](https://reactrouter.com/en/main/start/overview)
+
+## Tailwind
+
+Documentation Link -> [Link](https://tailwindcss.com/docs/installation)
