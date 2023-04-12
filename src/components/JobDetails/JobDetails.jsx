@@ -61,25 +61,25 @@ const JobDetails = () => {
             <h3 className="font-bold mb-4 text-xl">Job Details</h3>
             <hr className="mb-4 border border-violet-200" />
             <p className="mb-3">
-              <span className="font-bold">Salary: </span>
+              <span className="font-bold">💲 Salary: </span>
               <span className="text-gray-500">{data.salary} (Pre Month)</span>
             </p>
             <p className="mb-5">
-              <span className="font-bold">Job Title: </span>
+              <span className="font-bold">🗒️ Job Title: </span>
               <span className="text-gray-500">{data.title}</span>
             </p>
             <h3 className="mb-4 font-bold text-xl">Contact Information</h3>
             <hr className="mb-4 border border-violet-200" />
             <p className="mb-3">
-              <span className="font-bold">Phone: </span>{" "}
+              <span className="font-bold">📱 Phone: </span>{" "}
               <span className="text-gray-500">{data.phone}</span>
             </p>
             <p className="mb-3">
-              <span className="font-bold">Email: </span>{" "}
+              <span className="font-bold">📩 Email: </span>{" "}
               <span className="text-gray-500">{data.email}</span>
             </p>
             <p>
-              <span className="font-bold">Address: </span>
+              <span className="font-bold">⬇️ Address: </span>
               <span className="text-gray-500">{data.address}</span>
             </p>
           </div>
