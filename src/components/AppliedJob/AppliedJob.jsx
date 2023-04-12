@@ -1,12 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const AppliedJob = () => {
   const data = JSON.parse(localStorage.getItem("jobs"));
+  const [jobs, setJobs] = useState(data);
+
+  const handleRemote = () => {
+    const remote = data.filter((job) => job.type[0] == "Remote");
+    setJobs(remote);
+  };
+  const handleOnsite = () => {
+    const onsite = data.filter((job) => job.type[0] == "Onsite");
+    setJobs(onsite);
+  };
   return (
     <div className="w-full md:w-8/12 my-10 mx-auto">
-      {data.map((d) => (
-        <div className="flex justify-between items-center m-5 border p-6 rounded-md">
+      <div className="relative h-5">
+        <div className="absolute top-0 right-5 ">
+          <button
+            onClick={handleRemote}
+            className="text-violet-400 border border-violet-400 px-2 py-1 rounded-sm font-bold text-sm mr-5 hover:bg-violet-500 hover:text-white"
+          >
+            Remote
+          </button>
+          <button
+            onClick={handleOnsite}
+            className="text-violet-400 border border-violet-400 px-2 py-1 rounded-sm font-bold text-sm hover:bg-violet-500 hover:text-white"
+          >
+            Onsite
+          </button>
+        </div>
+      </div>
+      {jobs.map((d) => (
+        <div
+          key={d.id}
+          className="flex justify-between items-center m-5 border p-6 rounded-md"
+        >
           <div className="flex gap-7 items-center">
             <div className="bg-red-50 py-14 px-6 rounded-md">
               <img className="w-32 h-12" src={d.logo} alt="" />
