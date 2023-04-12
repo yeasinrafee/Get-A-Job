@@ -6,11 +6,11 @@ A React app Built with React and React Router Dom.
 
 ## Complete Project
 
-Github Repo -> [nextPage-github](https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-yeasinrafee/tree/main)
+Github Repo -> [GetAJob-github](https://github.com/Porgramming-Hero-web-course/b7a9-career-hub-yeasinrafee/tree/main)
 
 ## Live Link
 
-Hosted in Netlify -> [nextPage](#)
+Hosted in Netlify -> [GetAJob](#)
 
 # Features
 
