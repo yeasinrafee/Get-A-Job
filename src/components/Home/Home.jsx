@@ -21,7 +21,7 @@ const Home = () => {
           </button>
         </div>
         <div className="md:w-2/5">
-          <img src="../../../public/All Images/heroimg.png" alt="" />
+          <img src="./All Images/heroimg.png" alt="" />
         </div>
       </div>
       <JobCategory />

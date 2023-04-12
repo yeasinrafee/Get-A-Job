@@ -10,7 +10,7 @@ Github Repo -> [GetAJob-github](https://github.com/Porgramming-Hero-web-course/b
 
 ## Live Link
 
-Hosted in Netlify -> [GetAJob](#)
+Hosted in Netlify -> [GetAJob](https://spectacular-figolla-da5005.netlify.app/)
 
 # Features
 
