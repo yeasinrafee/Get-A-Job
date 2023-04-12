@@ -13,7 +13,7 @@ const Statistics = () => {
     { name: "Assignment-8", marks: 60 },
   ];
   return (
-    <div className="w-full md:w-8/12 my-5 md:mx-auto px-3 md:px-0">
+    <div className="w-full md:w-8/12 my-10 md:my-32 md:mx-auto px-3 md:px-0">
       <h1 className="font-bold text-3xl my-5">Assignment Marks Statistics: </h1>
       <PieChart width={600} height={600}>
         <Pie

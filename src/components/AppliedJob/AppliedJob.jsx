@@ -14,7 +14,8 @@ const AppliedJob = () => {
     setJobs(onsite);
   };
   return (
-    <div className="w-full md:w-8/12 my-10 mx-auto">
+    <div className="w-full md:w-8/12 my-10  mx-auto">
+      <h1 className="text-center font-bold md:mb-32 text-2xl">Applied Job</h1>
       <div className="relative h-5">
         <div className="absolute top-0 right-5 ">
           <button
